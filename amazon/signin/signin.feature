@@ -20,7 +20,7 @@ Feature: Sign In
     And I input a wrong password
     Then I see error message : Your password is incorrect
 
-  Scenario: Sign in with registered mobile number & and wrong password
+  Scenario: Sign in with registered email & and wrong password
     Given I am in page www.amazon.com on my browser
     And I click the sign in button
     When I input an email that is registered & click submit
